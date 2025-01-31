@@ -8,7 +8,7 @@ const app = express();
 const PORT = 5001;
 app.use(cors());
 
-app.get("/hng12/task-0", (req, res) => {
+app.get("/", (req, res) => {
   try {
     const FormattedDateTime = (isoString) => {
       return isoString.format("YYYY-MM-DDTHH:mm:ss[Z]");
