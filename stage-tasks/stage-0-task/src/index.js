@@ -8,13 +8,13 @@ const app = express();
 const PORT = 5001;
 app.use(cors());
 
-app.get("/", (req, res) => {
+app.get("/hng12/task-0", (req, res) => {
   try {
     const FormattedDateTime = (isoString) => {
       return isoString.format("YYYY-MM-DDTHH:mm:ss[Z]");
     };
 
-    const currentTime = dayjs().utc();
+    const currentTime = dayjs().utc({ keepLocalTime: true });
     const DateTimeOutput = FormattedDateTime(currentTime);
 
     res.status(200).json({

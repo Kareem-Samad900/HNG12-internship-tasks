@@ -32,8 +32,9 @@
 
 ## API DOCUMENTATION
 
-### - Endpoint URL [`http://localhost:5001/api/my-details`](http://localhost:5001/api/my-details)
+### - Endpoint URL [`http://localhost:5001/hng12/task-0`](http://localhost:5001/hng12/task-0)
 
 ### - Send a GET request to the url above, the response is a JSON data with the email details, current time in ISO 8601 UTC format, and the gihub url of the project repository.
 
-- [https://hng.tech/hire/nodejs-developers](https://hng.tech/hire/nodejs-developers)
+- [Backend Track](https://hng12.slack.com/archives/C088XGSSWVC)
+- [Nodejs-developers](https://hng.tech/hire/nodejs-developers)
