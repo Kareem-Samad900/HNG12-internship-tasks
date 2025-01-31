@@ -8,9 +8,9 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "kareem samad",
   "license": "ISC",
-  "description": "",
+  "description": "HNG12 task-0 project",
   "dependencies": {
     "express": "^4.21.2"
   },
